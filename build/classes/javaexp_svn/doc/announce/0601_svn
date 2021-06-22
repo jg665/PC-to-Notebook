@@ -1,0 +1,37 @@
+# SVN
+
+1. 원격접속 소스 공유
+	version 관리
+	client(개인pc)	Server(SVN)
+
+	client(개인pc)
+
+2. 주요기능
+	commit : 서버에 파일 전송
+	update : 서버에 전송된 파일 받기.
+	replace with : 서버에 있는 소스로 덮어 쓰기
+	
+3. 설치순서
+	help ==> eclipse marketplace
+	svn 검색 : 
+		subclipse 4.3.3 install
+	eclipse restart
+	window ==> show view ==> other ==>
+		SVN 하위에 svn repositories 선택 후 open
+	하단메뉴에 svn repositories 확인
+	마우스 오른쪽 클릭 new ==> repositories location 선택
+	url : https://211.63.89.68/svn/web 
+	==> finish
+		permemently accept
+	==> future/7777  save checked
+	project exploror 오른쪽 마우스 클릭
+		import ==> import ==> SVN ==> checkout project svn
+		select folder에서 javaexp 폴드 선택 후
+			javaexp_svn으로 이름을 바꾸고 종료 처리.
+				
+		
+		
+		
+		
+	
+	
