@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+/*
+
+*/
+
+</script>
+</head>
+<body>
+ 	<!-- 
+ 	a04_receive.jsp?name=홍길동&age=25&loc=서울신림동
+ 	action으로 지정한 jsp파일(java server page - 
+ 	jsp ==>	.java ==> .class ==> html만들고
+ 	==> 최종을 url로 호출한 client 브라우저에 전달한다.
+ 	
+ 	a05_inputProdcut.html
+ 		물건명 :[  ] 
+ 		가격 : [	 ]
+ 		갯수 : [  ]
+ 			[등록]
+ 	a06_showProduct.jsp
+ 		등록된 물건 정보
+ 		@@
+ 		@@
+ 		@@
+ 	 -->
+ 	 
+ 	 <form action="a06_showProduct.jsp">
+ 	 	<h2>물건 구매 정보</h2>
+ 	 	물건명:<input type="text" name="name" value=""/><br>
+ 	 	가격:<input type="text" name="price" value=""/><br>
+ 	 	갯수:<input type="text" name="count" value=""/><br>
+ 	 	<input type="submit" value="등록"/>
+ 	 </form>
+ <!-- 
+ submit버튼을 클릭하는 순간 아래와 같이 url 주소 바뀌고,
+ 해당 페이지를 호출하면서, 해당 페이지에서는 jsp코드로 데이터를
+ 받는 처리를 한다.
+ a06_showProduct.jsp?name=사과+&price=2000&count=2
+  -->
+</body>
+<script type="text/javascript">
+/*
+
+*/
+
+</script>
+</html>

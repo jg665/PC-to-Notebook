@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/*
+# margin 옵션
+1. margin-left
+1. margin-right
+1. margin-top
+1. margin-bottom
+*/
+	div{width:50px;height:50px;
+		border:1px solid green;margin-top:100px}
+		body{margin:0px;}
+		
+</style>
+<script type="text/javascript">
+
+/*
+  
+*/
+
+</script>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</body>
+<script type="text/javascript">
+/*
+ex) 두번째 div에 왼쪽 여백을 50px로 처리되게 하세요..(js) 5조
+*/
+	var divArray = document.querySelectorAll("div");
+	divArray[1].style.marginLeft="50px";
+	var divObj = document.querySelectorAll("div:nth-child(2)");
+	divObj.style.backgroundColor="orange";
+	divObj.style.margineLeft="50px";
+</script>
+</html>
